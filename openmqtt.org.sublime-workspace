@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sess",
+				"sessionKey"
+			],
+			[
+				"text",
+				"textStatus"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 2555,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/css/app.css",
+			"settings":
+			{
+				"buffer_size": 4989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app-.js",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app-controllers.js",
+			"settings":
+			{
+				"buffer_size": 3302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/dashboard.html",
+			"settings":
+			{
+				"buffer_size": 5823,
+				"line_ending": "Unix",
+				"name": "<div class=\"container-fluid\">"
+			}
+		},
+		{
+			"file": "src/app-directives.js",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"shell",
+				"Shell Command"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+			"location",
+			"pwd",
+			"ls",
+			"Install Package",
+			"Package Control: Install Package",
+			"mkdir -p ~/Library/Application\\ Support/TextMate/Bundles",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/daniel/workspace/openmqtt.org/src/css/app.css",
+		"/Users/daniel/workspace/openmqtt.org/src/templates/header.html",
+		"/Users/daniel/workspace/openmqtt.org/src/templates/contact.html",
+		"/Users/daniel/workspace/openmqtt.org/src/templates/home.html",
+		"/Users/daniel/workspace/openmqtt.org/src/css/carousel.css",
+		"/Users/daniel/workspace/ca.moranit.com/thankyou.html",
+		"/Users/daniel/workspace/ca.moranit.com/.gitignore",
+		"/Users/daniel/workspace/console/src/index.html",
+		"/Users/daniel/workspace/console/src/sass/app.sass",
+		"/Users/daniel/workspace/console/src/app-.js",
+		"/Users/daniel/workspace/console/Gruntfile.js",
+		"/Users/daniel/workspace/console/src/compiledindex.html",
+		"/Users/daniel/workspace/console/src/app-controller.js",
+		"/Users/daniel/workspace/console/src/app-services.js",
+		"/Users/daniel/workspace/console/README.md",
+		"/Users/daniel/workspace/console/src/app-directives.js",
+		"/Users/daniel/workspace/console/src/sass/_icons.sass",
+		"/Users/daniel/workspace/console/src/css/console.css",
+		"/Users/daniel/workspace/console/bin/console-plugin-home/console-plugin-home.js",
+		"/Users/daniel/workspace/console/bin/console-control-nav/console-control-nav.js",
+		"/Users/daniel/workspace/console/test/karma.conf.js",
+		"/Users/daniel/workspace/console/test/app-controller.test.js",
+		"/Users/daniel/workspace/README.md",
+		"/Users/daniel/workspace/console/test/app-services.test.js",
+		"/Users/daniel/workspace/console/test/app-directives.test.js",
+		"/Users/daniel/workspace/console/src/components/search/search-controller.js",
+		"/Users/daniel/workspace/console/src/app-filters.js",
+		"/Users/daniel/workspace/console/src/components/nav/nav-services.js",
+		"/Users/daniel/workspace/console/src/components/search/search-directives.js",
+		"/Users/daniel/workspace/console/src/components/search/search-services.js",
+		"/Users/daniel/workspace/console/test/components/nav/nav-services.test.js",
+		"/Users/daniel/workspace/console/src/components/nav/nav-controller.js",
+		"/Users/daniel/workspace/console/src/components/nav/nav-directives.js",
+		"/Users/daniel/workspace/console/src/components/user/user-services.js",
+		"/Users/daniel/workspace/console/src/sass/components.sass",
+		"/Users/daniel/workspace/console/src/css/app.css",
+		"/Users/daniel/workspace/console/src/components/user/response.xml",
+		"/Users/daniel/workspace/console/src/components/user/temp.xml",
+		"/Users/daniel/workspace/console/.gitignore",
+		"/Users/daniel/workspace/console/src/external/angular-navigator/angular-navigator.min.css",
+		"/Users/daniel/workspace/console/src/plugins/administration/administration-controller.js",
+		"/Users/daniel/workspace/console/test/plugins/administration/administration-controller.test.js",
+		"/Users/daniel/workspace/console/test/plugins/home/home-controller.test.js",
+		"/Users/daniel/workspace/console/src/plugins/home/home-controller.js",
+		"/Users/daniel/workspace/console/test/plugins/home/home-services.test.js",
+		"/Users/daniel/workspace/console/test/plugins/administration/administration-services.test.js",
+		"/Users/daniel/workspace/console/src/plugins/administration/administration-services.js",
+		"/Users/daniel/workspace/console/src/plugins/home/home-services.js",
+		"/Users/daniel/workspace/console/test/components/user/user-services.test.js",
+		"/Users/daniel/workspace/console/test/components/search/search-services.test.js",
+		"/Users/daniel/workspace/console/test/components/search/search-controller.test.js",
+		"/Users/daniel/workspace/console/src/components/user/user-controller.js",
+		"/Users/daniel/workspace/console/test/components/user/user-controller.test.js",
+		"/Users/daniel/workspace/console/test/components/nav/nav-controller.test.js",
+		"/Users/daniel/workspace/console/src/components/user/user.js",
+		"/Users/daniel/workspace/console/src/components/search/search.js",
+		"/Users/daniel/workspace/console/karma.conf.js",
+		"/Users/daniel/workspace/console/src/stylesheets/app.css",
+		"/Users/daniel/workspace/console/package.json",
+		"/Users/daniel/workspace/angular-xml/src/styles.sass",
+		"/Users/daniel/workspace/angular-xml/src/angular-xml-.js",
+		"/Users/daniel/workspace/angular-xml/src/angular-xml-attr.js",
+		"/Users/daniel/workspace/angular-xml/build/angular-xml.js",
+		"/Users/daniel/workspace/angular-xml/Grunt.js",
+		"/Users/daniel/workspace/angular-xml/karma.conf.js",
+		"/Users/daniel/workspace/angular-xml/package.json",
+		"/Users/daniel/workspace/angular-xml/README.md",
+		"/Users/daniel/workspace/angular-xml/test/spec/test.js",
+		"/Users/daniel/workspace/angular-xml/.gitignore",
+		"/Users/daniel/workspace/angular-tanium-soap/README.md",
+		"/Users/daniel/workspace/angular-tanium-soap/src/styles.sass",
+		"/Volumes/SEAGATE SLI/Software/Applications/sublimetext/License.txt",
+		"/Users/daniel/Desktop/import os, sublime_plugin",
+		"/Users/daniel/workspace/angular-tanium-soap/src/angular-tanium-soap-.js",
+		"/Users/daniel/workspace/angular-tanium-soap/build/angular-tanium-soap.css",
+		"/Users/Daniel/Downloads/stix_v1.1_offline/stix_core.xsd",
+		"/Users/Daniel/Downloads/fireeye-pivy-indicators.xml",
+		"/Users/Daniel/Downloads/stix_v1.1_offline/threat_actor.xsd",
+		"/Users/Daniel/Google Drive/manage.tanium.me/Content/Packages/Register (Windows)/register.vbs",
+		"/Users/Daniel/Google Drive/manage.tanium.me/Content/Packages/Register (Mac:Linux)/register.sh"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"' +",
+			"''",
+			"Zero",
+			"app.",
+			"opensans",
+			"console.services",
+			">",
+			"newXmlTag",
+			"ToolInformationType"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"'",
+			"newTag"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2164,
+								2164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3563,
+								3563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2941.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app-.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/app-controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3035,
+								3035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div class=\"container-fluid\">",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/app-directives.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "openmqtt.org.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
