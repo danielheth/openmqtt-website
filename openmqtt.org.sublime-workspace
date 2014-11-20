@@ -40,6 +40,15 @@
 			}
 		},
 		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 1922,
+				"line_ending": "Unix",
+				"name": "### Ignore VIM Files"
+			}
+		},
+		{
 			"file": "build/templates/contact.html",
 			"settings":
 			{
@@ -115,10 +124,7 @@
 	"expanded_folders":
 	[
 		"/Users/daniel/workspace/OpenMqtt/openmqtt-website",
-		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build",
-		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/css",
-		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/templates",
-		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/sass"
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build"
 	],
 	"file_history":
 	[
@@ -274,7 +280,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -304,7 +310,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -334,7 +340,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -363,11 +369,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1922,
+								1922
+							]
+						],
+						"settings":
+						{
+							"auto_name": "### Ignore VIM Files",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "build/templates/contact.html",
 					"semi_transient": false,
 					"settings":
@@ -392,11 +427,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "sass/_header.sass",
 					"semi_transient": false,
 					"settings":
@@ -414,13 +449,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
