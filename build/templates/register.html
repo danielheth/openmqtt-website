@@ -1,0 +1,48 @@
+
+<div class="omform">
+	<div class="padded-bordered-content">
+		<h1 class="mb-10">Register</h1>							
+		<script type="text/javascript">
+			//<![CDATA[
+			var _Verify = new Verify();
+			_Verify.addElement("userName_register",{_type: "userName"});
+			_Verify.addElement(["userPassword-register","userPasswordAgain"],{_type: "password",_minLength: 4});
+			_Verify.addElement("userEmailAddress",{_type: "email"});
+			_Verify.addElement("userCode");
+
+			var _registrationFormWasSubmitted = false;
+
+			verifyRegistrationForm = function(_Verify) {
+				if (_Verify.verify() && (window._registrationFormWasSubmitted === false)) {
+					window._registrationFormWasSubmitted = true;
+					return true;
+				}
+				return false;
+			};
+			//]]>
+		</script>
+		<p style="font-size: 12px;">It’s free, easy and you won’t find anywhere else that provides you with an open mqtt broker network for your projects.  Sign up now to use any of our tools to create your own mqtt namespaces.</p><hr class="thick mb-20">
+
+		<div class="register-form wide-form-container">
+			<form action="/op/add/user" method="post" enctype="multipart/form-data" onsubmit="return verifyRegistrationForm(_Verify);">
+				<input type="hidden" id="dummy" value="dummy">
+				<label for="userName_register" class="required">Username</label><input type="text" name="userName" id="userName_register" class="text-skinny" maxlength="20" value=""><div id="userName_registerIndicator" class="message-success" style="display: none;"></div>
+
+				<div class="clear"></div>
+				<label for="userPassword-register" class="required">Password</label><input type="password" name="userPassword" id="userPassword-register" class="text-skinny">
+
+				<div class="clear"></div>
+				<label for="userPasswordAgain" class="required">Password Again</label><input type="password" name="userPassword_again" id="userPasswordAgain" class="text-skinny">
+
+				<div class="clear"></div>
+				<label for="userEmailAddress" class="required">Email Address</label><input type="text" name="userEmailAddress" id="userEmailAddress" class="text-skinny" maxlength="255" value="">
+
+
+				<div class="clear"></div>
+				<button>Create Account</button>
+				<div class="clear"></div>
+			</form>
+		</div>
+	</div>
+</div>
+

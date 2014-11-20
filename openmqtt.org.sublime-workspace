@@ -16,59 +16,42 @@
 	"buffers":
 	[
 		{
-			"file": "src/index.html",
+			"file": "sass/_omform.sass",
 			"settings":
 			{
-				"buffer_size": 2555,
+				"buffer_size": 1320,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/templates/contact.html",
+			"file": "sass/app.sass",
 			"settings":
 			{
-				"buffer_size": 50,
+				"buffer_size": 5618,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/css/app.css",
+			"file": "build/templates/register.html",
 			"settings":
 			{
-				"buffer_size": 4989,
+				"buffer_size": 2220,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/app-.js",
+			"file": "build/templates/contact.html",
 			"settings":
 			{
-				"buffer_size": 259,
+				"buffer_size": 1211,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/app-controllers.js",
+			"file": "sass/_header.sass",
 			"settings":
 			{
-				"buffer_size": 3302,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/dashboard.html",
-			"settings":
-			{
-				"buffer_size": 5823,
-				"line_ending": "Unix",
-				"name": "<div class=\"container-fluid\">"
-			}
-		},
-		{
-			"file": "src/app-directives.js",
-			"settings":
-			{
-				"buffer_size": 222,
+				"buffer_size": 767,
 				"line_ending": "Unix"
 			}
 		}
@@ -129,8 +112,35 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/css",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/templates",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/sass"
+	],
 	"file_history":
 	[
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/index.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/sass/_register.sass",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/sass/app.sass",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/sass/_footer.sass",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/css/openmqtt.css",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/build/templates/footer.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/index.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/footer.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/header.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/contact.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/register.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/css/app.css",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/package.json",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/app-.js",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/app-controllers.js",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/dashboard.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/app-directives.js",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/templates/home.html",
+		"/Users/daniel/workspace/OpenMqtt/openmqtt-website/src/thankyou.html",
 		"/Users/daniel/workspace/openmqtt.org/src/css/app.css",
 		"/Users/daniel/workspace/openmqtt.org/src/templates/header.html",
 		"/Users/daniel/workspace/openmqtt.org/src/templates/contact.html",
@@ -214,7 +224,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -229,6 +239,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"header",
+			"2d6ca2",
+			"428bca",
+			"2d6ca2",
 			"' +",
 			"''",
 			"Zero",
@@ -245,6 +259,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"832C73",
+			"6E344D",
 			"",
 			"'",
 			"newTag"
@@ -258,118 +274,61 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.html",
+					"file": "sass/_omform.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2555,
+						"buffer_size": 1320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2164,
-								2164
+								7,
+								3
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/templates/contact.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/css/app.css",
+					"buffer": 1,
+					"file": "sass/app.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4989,
+						"buffer_size": 5618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3563,
-								3563
+								172,
+								172
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2941.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/app-.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								187,
-								187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -379,92 +338,89 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/app-controllers.js",
+					"buffer": 2,
+					"file": "build/templates/register.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3302,
+						"buffer_size": 2220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3035,
-								3035
+								19,
+								19
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 878.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/templates/dashboard.html",
+					"buffer": 3,
+					"file": "build/templates/contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5823,
+						"buffer_size": 1211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1810,
-								1810
+								20,
+								20
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<div class=\"container-fluid\">",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/app-directives.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/_header.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -539,6 +495,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
