@@ -13,4 +13,11 @@ angular.module('openmqtt')
 	    };
 	}])
 
+	.directive('footerBar', [function() {
+		return {
+	        restrict: 'AE',
+	        //scope: {},
+	        templateUrl: 'templates/footer.html' 	
+	    };
+	}])
 ;

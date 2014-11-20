@@ -7,22 +7,34 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">OpenMQTT</a>
+      <a class="navbar-brand" href="#"><img src="images/logo32-white.png" />OpenMQTT</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li ng-class="{active:isActive('/home')}"><a href="#home">Home</a></li>
         <li ng-class="{active:isActive('/contact')}"><a href="#contact">Contact</a></li>
       </ul>
-      <form class="navbar-form navbar-right" role="form">
-        <div class="form-group">
-          <input type="text" placeholder="Email" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="password" placeholder="Password" class="form-control">
-        </div>
-        <button type="submit" class="btn btn-success">Sign in</button>
-      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li ng-class="{active:isActive('/register')}"><a href="#register">Sign Up</a></li>
+        <li ng-class="{active:isActive('/login')}" class="dropdown">
+          <a href="#" onclick="return false;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Log In <span class="caret"></span></a>
+          
+          <form class="loginform dropdown-menu" role="menu" method="post" target="_top">
+            <label for="userName-log-in">Username</label>
+            <input type="text" id="userName-log-in" name="userName" class="text" maxlength="20">
+            <div class="clear"></div>
+            <label for="password-log-in">Password</label>
+            <input type="password" id="password-log-in" name="userPassword" class="password">
+            <div class="clear shim"></div>
+            <a href="#lostpassword" class="left link" target="_top">Lost Password?</a>
+            <input type="image" src="/images/log-in-btn.png" class="right" value="Log In">
+            <a ng-class="{hidden:isActive('/register')}" href="#register" class="right mr-5" target="_top">
+              <img src="/images/sign-up-btn.png" alt="Sign Up">
+            </a>
+          </form>
+
+        </li>
+      </ul>
     </div><!--/.navbar-collapse -->
   </div>
 </div>'

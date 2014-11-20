@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Daniel H Moran">
     <link rel="icon" href="favicon.ico">
 
-    <title>OpenMQTT</title>
+    <title>OpenMQTT &middot; The worlds first open MQTT broker network.</title>
 
    <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -42,6 +41,30 @@
     <div id='main' ng-view></div>
 
 
+    <div id="ga-above-footer" style="margin: 30px auto -10px; width: 728px; height: 90px;"></div>
+
+    <div class="right bs-docs-social">
+      <ul class="bs-docs-social-buttons">
+        <li class="follow-btn">
+          <a href="https://twitter.com/openmqtt" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @openmqtt</a>
+        </li>
+        <li class="tweet-btn">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://openmqtt.org/" data-count="horizontal" data-via="openmqtt" data-related="mdo:Creator of OpenMQTT">Tweet</a>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
+        js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+    </script>
+
+    <footer-bar>
+    </footer-bar>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -55,8 +78,8 @@
     
     <script src="//bouil.github.io/angular-google-chart/ng-google-chart.js"></script>
 
-    <script src="../../libraries/angular-route/angular-route.min.js"></script>
-    <script src="../../libraries/angular-localstorage/angular-localstorage.js"></script>
+    <script src="/libraries/angular-route/angular-route.min.js"></script>
+    <script src="/libraries/angular-localstorage/angular-localstorage.js"></script>
     
     <script src="app-.js"></script>
     <script src="app-directives.js"></script>

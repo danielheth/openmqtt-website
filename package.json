@@ -1,0 +1,22 @@
+{
+  "name": "openmqtt-website",
+  "version": "0.0.1",
+  "description": "Website used as the main interface into controlling your computers.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielheth/openmqtt-website.git"
+  },
+  "keywords": [
+    "MQTT"
+  ],
+  "author": "Daniel H Moran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielheth/openmqtt-website/issues"
+  },
+  "homepage": "https://github.com/danielheth/openmqtt-website"
+}

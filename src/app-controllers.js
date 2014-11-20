@@ -22,6 +22,7 @@ angular.module('openmqtt')
 			.when('/home', {templateUrl: 'templates/home.html', controller: 'homeController'})
 			.when('/contact', {templateUrl: 'templates/contact.html', controller: 'contactController'})
 			.when('/dashboard', {templateUrl: 'templates/dashboard.html', controller: 'dashboardController'})
+			.when('/register', {templateUrl: 'templates/register.html', controller: 'registerController'})
 			.otherwise({ redirectTo: '/home' })
 		;
 	}])
